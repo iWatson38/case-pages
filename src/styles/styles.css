@@ -1,4 +1,4 @@
-/* GENERAL */
+/* GENERAL FOR PAGES */
 ul {
   list-style: none;
   padding: 0;
@@ -11,9 +11,12 @@ ul {
   padding-right: 132px;
   margin: 0 auto;
 }
-
 .content-wrapper {
   max-width: 780px;
+}
+.z-index {
+  position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 1080px) {
@@ -309,6 +312,66 @@ ul {
   }
 }
 
+/* GENERAL FOR CASES */
+.case {
+  width: 100%;
+  height: 100%;
+}
+.case-background-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+.case-content {
+  padding: 34px;
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.case-content:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+.case-logo {
+  max-width: 100%;
+  height: 47px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+.case-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 10px 0 0;
+  position: relative;
+  z-index: 1;
+}
+.case-content:hover .case-title {
+  width: 100%;
+}
+
+@media (max-width: 1400px) {
+  .case-background-image {
+    opacity: 0.5;
+  }
+}
+@media (max-width: 1080px) {
+  .case-content {
+    padding: 26px;
+  }
+  .case-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
 /* NEXIGN PAGES */
 .block-with-definition {
   display: grid;
@@ -328,7 +391,6 @@ ul {
 .definition-container {
   position: absolute;
   left: 0;
-  padding: 88px 35px;
 }
 .definition {
   font-style: normal;
@@ -360,7 +422,7 @@ ul {
   }
 }
 
-/* NEXIGN-B2B */
+/* NEXIGN-B2B PAGE */
 .nexign-b2b-header {
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign-b2b-header-background.png);
 }
@@ -378,17 +440,19 @@ ul {
 .nexign-b2b-definition-container {
   background: #00ad21;
   top: -134px;
+  padding: 88px 35px;
 }
 .nexign-b2b-definition {
-  color: white;
+  color: white !important;
 }
 .nexign-b2b-rest-api-definition-container {
   background: white;
   border: 4px solid #00ad21;
   top: -134px;
+  padding: 88px 35px;
 }
 .nexign-b2b-rest-api-definition {
-  color: #00ad21;
+  color: #00ad21 !important;
 }
 .nexign-b2b-list-marker {
   width: 16px;
@@ -432,5 +496,476 @@ ul {
   }
   .nexign-b2b-decision-block-list-item {
     gap: 10px;
+  }
+}
+
+/* NEXIGN-B2B CASE */
+.nexign-b2b-case {
+  background: #424f47;
+  color: #424f47;
+}
+.nexign-b2b-case-background-image {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/Nexign_B2B_preview.png);
+}
+.nexign-b2b-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/NexignLogo.png);
+}
+.nexign-b2b-case-title {
+  color: white;
+}
+.nexign-b2b-case-title::before {
+  content: 'B2B-портал\Aдля операторов\Aсвязи';
+  white-space: pre-wrap;
+}
+
+/* NEXIGN-TELECOM-OPERATOR-BILLING PAGE */
+.nexign-telecom-operator-billing-header {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign-telecom-operator-billing-header-background.png);
+}
+.nexign-telecom-operator-billing-header-title {
+  color: white;
+}
+.nexign-telecom-operator-billing-direction {
+  color: #2c5f5f;
+  background: white;
+}
+.nexign-telecom-operator-billing-competence {
+  color: white;
+  border-color: white;
+}
+.nexign-telecom-operator-billing-definition-container {
+  background: #23363a;
+  top: -134px;
+  padding: 52px 35px;
+}
+.nexign-telecom-operator-billing-definition {
+  color: white !important;
+}
+.nexign-telecom-operator-billing-task-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.nexign-telecom-operator-billing-comment-container {
+  background: #e1ece6;
+}
+
+@media (max-width: 1080px) {
+  .nexign-telecom-operator-billing-definition-container {
+    top: -44px;
+  }
+}
+@media (max-width: 960px) {
+  .nexign-telecom-operator-billing-definition-container {
+    top: 0;
+  }
+}
+
+/* NEXIGN-TELECOM-OPERATOR-BILLING CASE */
+.nexign-telecom-operator-billing-case {
+  background: #2c5f5f;
+  color: #2c5f5f;
+}
+.nexign-telecom-operator-billing-case-background-image {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/Nexign_B2B_preview.png);
+}
+.nexign-telecom-operator-billing-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/NexignLogo.png);
+}
+.nexign-telecom-operator-billing-case-title {
+  color: white;
+}
+.nexign-telecom-operator-billing-case-title::before {
+  content: 'Биллинг\Aоператора\Aсвязи';
+  white-space: pre-wrap;
+}
+
+/* BKS-INVESTORS-PERSONAL-ACCOUNT PAGE */
+.bks-investors-personal-account-header {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/BksHeaderBackground.png);
+}
+.bks-investors-personal-account-header-title {
+  color: white;
+}
+.bks-investors-personal-account-direction {
+  color: #0057bf;
+  background: white;
+}
+.bks-investors-personal-account-competence {
+  color: white;
+  border-color: white;
+}
+.bks-investors-personal-account-header-background-illustration {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/BksBackgroundIllustration.png);
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bks-investors-personal-account-task-list-item {
+  gap: 20px;
+}
+.bks-investors-personal-account-list-marker {
+  width: 10px;
+  height: 10px;
+  background: #126dda;
+  border-radius: 50%;
+  margin-top: 7px;
+}
+.bks-investors-personal-account-decision-list-item {
+  background-color: #f5f7fa;
+  border-radius: 36px;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  padding: 28px 44px;
+  gap: 20px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+.bks-investors-personal-account-decision-list-background-1 {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/DecisionListItemBackground-1.png);
+}
+.bks-investors-personal-account-decision-list-background-2 {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/DecisionListItemBackground-2.png);
+}
+.bks-investors-personal-account-decision-list-background-3 {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/DecisionListItemBackground-3.png);
+}
+.bks-investors-personal-account-decision-list-background-4 {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/DecisionListItemBackground-4.png);
+}
+.bks-investors-personal-account-decision-list-background-5 {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/DecisionListItemBackground-5.png);
+}
+.bks-investors-personal-account-decision-list-text-container {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 20px;
+  max-width: 587px;
+  height: max-content;
+}
+.bks-investors-personal-account-decision-list-item-icon {
+  height: 100%;
+  max-height: 280px;
+  display: block;
+  margin-left: auto;
+}
+.bks-investors-personal-account-comment-container {
+  background: #f5f7fa;
+}
+
+@media (max-width: 1439px) {
+  .bks-investors-personal-account-header-background-illustration {
+    height: 460px;
+    top: auto;
+    bottom: -116px;
+  }
+}
+@media (max-width: 1300px) {
+  .bks-investors-personal-account-decision-list-item {
+    grid-template-columns: 2fr 1fr;
+  }
+  .bks-investors-personal-account-decision-list-text-container {
+    max-width: initial;
+  }
+}
+@media (max-width: 1230px) {
+  .bks-investors-personal-account-header-background-illustration {
+    display: none;
+  }
+}
+@media (max-width: 1080px) {
+  .bks-investors-personal-account-decision-list-item {
+    grid-template-columns: 1fr;
+    padding: 28px 18px;
+    gap: 12px;
+    justify-items: center;
+  }
+  .bks-investors-personal-account-decision-list-text-container {
+    gap: 12px;
+  }
+}
+@media (max-width: 800px) {
+  .bks-investors-personal-account-header-background-illustration {
+    height: 360px;
+  }
+}
+@media (max-width: 768px) {
+  .bks-investors-personal-account-task-list-item {
+    gap: 10px;
+  }
+  .bks-investors-personal-account-list-marker {
+    width: 6px;
+    height: 6px;
+    margin-top: 5px;
+  }
+  .bks-investors-personal-account-decision-list-item-icon {
+    max-height: 165px;
+  }
+}
+
+/* BKS-INVESTORS-PERSONAL-ACCOUNT CASE */
+.bks-investors-personal-account-case {
+  background: #126dda;
+  color: #126dda;
+}
+.bks-investors-personal-account-case-background-image {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/image-82.png);
+}
+.bks-investors-personal-account-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/01/bcs-banner-logo.png);
+}
+.bks-investors-personal-account-case-title {
+  color: white;
+}
+.bks-investors-personal-account-case-title::before {
+  content: 'Разработка\Aличного\Aкабинета\Aинвестора';
+  white-space: pre-wrap;
+}
+
+/* WHOOSH-MOS-TRANSPORT PAGE */
+.whoosh-mos-transport-header {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/01/WhooshMosTransportHeaderBackground.png);
+}
+.whoosh-mos-transport-header-content-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 'logo illustration' 'content illustration';
+}
+.whoosh-mos-transport-logo-container {
+  grid-area: logo;
+}
+.whoosh-mos-transport-header-content {
+  grid-area: content;
+}
+.whoosh-mos-transport-header-subtitle-container {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin: 70px 0 23px;
+}
+.whoosh-mos-transport-header-subtitle-logo {
+  width: 38px;
+  height: 46px;
+}
+.whoosh-mos-transport-header-subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 38px;
+  color: #ea020f;
+  margin: 0;
+}
+.whoosh-mos-transport-header-title {
+  color: #363636;
+}
+.whoosh-mos-transport-direction {
+  color: #ffc200;
+  background: #363636;
+}
+.whoosh-mos-transport-competence {
+  color: #363636;
+  border-color: 3px solid #363636;
+}
+.whoosh-mos-transport-header-background-illustration-container {
+  position: relative;
+  width: 100%;
+  grid-area: illustration;
+}
+.whoosh-mos-transport-header-background-illustration {
+  position: absolute;
+  width: 100%;
+  top: -100px;
+}
+.whoosh-mos-transport-link {
+  text-decoration: none;
+  color: #ed392b;
+  cursor: pointer;
+}
+.whoosh-mos-transport-list-item {
+  gap: 30px;
+}
+.whoosh-mos-transport-list-marker {
+  height: 16px;
+  background: linear-gradient(
+    90deg,
+    #ed1100 -1.92%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  border-radius: 2px 0px 0px 2px;
+  margin-top: 5px;
+}
+.whoosh-mos-transport-list-marker-first {
+  width: 52px;
+}
+.whoosh-mos-transport-list-marker-second {
+  width: 85px;
+}
+.whoosh-mos-transport-list-marker-third {
+  width: 107px;
+}
+.whoosh-mos-transport-decision-illustration-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+  align-items: flex-end;
+}
+.whoosh-mos-transport-decision-illustration {
+  width: 100%;
+}
+.whoosh-mos-transport-comment-container {
+  background: #faf3df;
+}
+
+@media (max-width: 1400px) {
+  .whoosh-mos-transport-header-content-container {
+    grid-template-areas: 'logo logo' 'content illustration';
+  }
+  .whoosh-mos-transport-header-background-illustration {
+    top: -90px;
+    width: auto;
+    height: 160%;
+    right: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .whoosh-mos-transport-header-background-illustration {
+    top: 0;
+    height: 130%;
+  }
+}
+@media (max-width: 900px) {
+  .whoosh-mos-transport-header-background-illustration {
+    top: 80px;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .whoosh-mos-transport-header-subtitle-container {
+    margin: 30px 0 10px;
+  }
+  .whoosh-mos-transport-header-subtitle-logo {
+    width: 28px;
+    height: 34px;
+  }
+  .whoosh-mos-transport-header-subtitle {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .whoosh-mos-transport-header-background-illustration {
+    height: 150%;
+    top: 20px;
+  }
+  .whoosh-mos-transport-list-item {
+    gap: 20px;
+  }
+  .whoosh-mos-transport-list-marker {
+    margin-top: 0;
+  }
+  .whoosh-mos-transport-list-marker-first {
+    width: 38px;
+  }
+  .whoosh-mos-transport-list-marker-second {
+    width: 63px;
+  }
+  .whoosh-mos-transport-list-marker-third {
+    width: 79px;
+  }
+  .whoosh-mos-transport-decision-illustration-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 580px) {
+  .whoosh-mos-transport-header-background-illustration {
+    top: 120px;
+    height: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .whoosh-mos-transport-header-background-illustration {
+    top: 190px;
+    height: 80%;
+  }
+}
+
+/* WHOOSH-MOS-TRANSPORT CASE */
+.whoosh-mos-transport-case {
+  background: #ffc200;
+  color: #593f00;
+}
+.whoosh-mos-transport-case-background-image {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/image-87.png);
+}
+.whoosh-mos-transport-case-logo {
+  background-image: url('http://192.168.1.112:8080/wp-content/uploads/2023/01/whoosh-logo.png');
+}
+.case-content:hover .whoosh-mos-transport-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/01/activeWhooshLogo.png) !important;
+}
+.whoosh-mos-transport-case-subtitle-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 10px 0 0;
+}
+.whoosh-mos-transport-case-subtitle-logo {
+  width: 34px;
+  height: 40px;
+  background-image: url('http://192.168.1.112:8080/wp-content/uploads/2023/01/mostr-logo.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+.case-content:hover .whoosh-mos-transport-case-subtitle-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/01/activeMostrLogo.png) !important;
+}
+.whoosh-mos-transport-case-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  color: red;
+}
+.case-content:hover .whoosh-mos-transport-case-subtitle {
+  color: white !important;
+}
+.whoosh-mos-transport-case-title {
+  color: #363636;
+  max-width: 370px;
+}
+.whoosh-mos-transport-case-title::before {
+  content: 'Интеграция с Мос Транспортом';
+}
+.case-content:hover .whoosh-mos-transport-case-title {
+  color: white !important;
+}
+.case-content:hover .whoosh-mos-transport-case-title::before {
+  content: 'Интеграция с Московским транспортом для сервиса кикшеринга.';
+}
+
+@media (max-width: 1080px) {
+  .whoosh-mos-transport-case-subtitle-logo {
+    width: 26px;
+    height: 31px;
+  }
+  .whoosh-mos-transport-case-subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 550px) {
+  .whoosh-mos-transport-case-background-image {
+    background-position-x: -200px;
+    background-position-y: center;
+    background-size: cover;
   }
 }
