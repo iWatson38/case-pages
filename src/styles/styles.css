@@ -18,6 +18,9 @@ ul {
   position: relative;
   z-index: 1;
 }
+.mirroring {
+  transform: rotate3d(0, 1, 0, 180deg);
+}
 
 @media (max-width: 1080px) {
   .page-wrapper {
@@ -89,6 +92,29 @@ ul {
   border-width: 3px;
   border-style: solid;
 }
+.device-types-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 30px 0 0;
+}
+.device-type-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.device-types-list-marker {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.device-type {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+}
 
 @media (max-width: 768px) {
   .header {
@@ -114,6 +140,10 @@ ul {
   .competence {
     padding: 14px 28px;
     border-width: 2px;
+  }
+  .device-type {
+    font-size: 16px;
+    line-height: 16px;
   }
 }
 
@@ -166,12 +196,17 @@ ul {
 }
 .technology-container {
   display: grid;
+  grid-template-rows: max-content 1fr;
   gap: 20px;
   justify-items: center;
 }
 .technology-logo {
   width: 128px;
   height: 128px;
+}
+.technology-name-container {
+  display: grid;
+  justify-items: center;
 }
 .technology-name {
   font-style: normal;
@@ -181,6 +216,16 @@ ul {
   color: #949494;
   margin: 0;
   width: max-content;
+  text-align: center;
+}
+.technology-sub-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #949494;
+  margin: 0;
 }
 
 /* staff comment */
@@ -261,6 +306,10 @@ ul {
   .technology-name {
     font-size: 14px;
     line-height: 19px;
+  }
+  .technology-sub-name {
+    font-size: 12px;
+    line-height: 16px;
   }
 
   /* staff comment */
@@ -567,7 +616,7 @@ ul {
   color: #2c5f5f;
 }
 .nexign-telecom-operator-billing-case-background-image {
-  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/Nexign_B2B_preview.png);
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign-telecom-operator-billing-case-background-image.png);
 }
 .nexign-telecom-operator-billing-case-logo {
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/NexignLogo.png);
@@ -968,4 +1017,396 @@ ul {
     background-position-y: center;
     background-size: cover;
   }
+}
+
+/* SIMONS-VOSS-TRANSPONDER PAGE */
+.simons-voss-transponder-header {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/simons-voss-transponder-header-background.png);
+}
+.simons-voss-transponder-header-title {
+  color: white;
+}
+.simons-voss-transponder-direction {
+  color: #242326;
+  background: #a9ab56;
+}
+.simons-voss-transponder-competence {
+  color: #a9ab56;
+  border-color: #a9ab56;
+}
+.simons-voss-transponder-device-types-list-marker {
+  background: #a9ab56;
+}
+.simons-voss-transponder-device-type {
+  color: #a9ab56;
+}
+.simons-voss-transponder-comment-container {
+  background: #ececdf;
+}
+.simons-voss-transponder-definition-container {
+  padding: 228px 86px 0;
+  text-align: center;
+  top: -330px;
+}
+.simons-voss-transponder-definition {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  margin: 0;
+}
+.simons-voss-transponder-decision-illustration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 127%;
+}
+
+@media (max-width: 1200px) {
+  .simons-voss-transponder-definition-container {
+    padding: 210px 86px 0;
+    top: -120px;
+  }
+  .simons-voss-transponder-decision-illustration {
+    max-width: 110%;
+  }
+}
+@media (max-width: 960px) {
+  .simons-voss-transponder-definition-container {
+    position: relative;
+    top: 0;
+    padding: 254px 86px 52px;
+  }
+}
+@media (max-width: 768px) {
+  .simons-voss-transponder-definition {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .simons-voss-transponder-definition-container {
+    position: relative;
+    top: 0;
+    padding: 250px 86px 68px;
+  }
+  .simons-voss-transponder-decision-illustration {
+    max-width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .simons-voss-transponder-definition-container {
+    padding: 65% 20% 20%;
+  }
+}
+
+/* SIMONS-VOSS-TRANSPONDER CASE */
+.simons-voss-transponder-case {
+  background: #232225;
+  color: #a9ab56;
+}
+.simons-voss-transponder-case-case-background-image {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/simons-voss-transponder-case-case-background-image.png);
+}
+.simons-voss-transponder-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/simons-voss-transponder-case-logo.png);
+}
+.simons-voss-transponder-case-title {
+  color: white;
+}
+.simons-voss-transponder-case-title::before {
+  content: 'Интеграция\Aтранспондера\Aв мобильное\Aприложение';
+  white-space: pre-wrap;
+}
+
+/* SIBUR-CLICK-INTERNAL-SOCIAL-NETWORK PAGE */
+.sibur-click-internal-social-network-page-container {
+  overflow: hidden;
+}
+.sibur-click-internal-social-network-header {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/sibur-click-internal-social-network-banner-back.png);
+}
+.sibur-click-internal-social-network-title {
+  color: white;
+}
+.sibur-click-internal-social-network-direction {
+  color: #008c95;
+  background: white;
+}
+.sibur-click-internal-social-network-competence {
+  color: white;
+  border-color: white;
+}
+.sibur-click-internal-social-network-device-types-list-marker {
+  background: white;
+}
+.sibur-click-internal-social-network-device-type {
+  color: white;
+}
+.sibur-click-internal-social-network-header-illustration {
+  position: absolute;
+  top: 60px;
+  right: 100px;
+}
+.sibur-click-internal-social-network-definition {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 38px;
+  margin: 0;
+}
+.sibur-click-internal-social-network-definition-color {
+  color: #096b72 !important;
+}
+.sibur-click-internal-social-network-definition-container {
+  height: 474px;
+  padding: 150px 70px;
+  left: 30px;
+  top: -50px;
+}
+.sibur-click-internal-social-network-definition-illustration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.sibur-click-internal-social-network-functionality-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 30px;
+}
+.sibur-click-internal-social-network-functionality-list-item {
+  gap: 10px;
+}
+.sibur-click-internal-social-network-functionality-list-marker {
+  position: relative;
+  width: 16px;
+  height: 8px;
+  margin-top: 9px;
+}
+.sibur-click-internal-social-network-functionality-list-marker::before,
+.sibur-click-internal-social-network-functionality-list-marker::after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+.sibur-click-internal-social-network-functionality-list-marker:before {
+  top: -5px;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+}
+.sibur-click-internal-social-network-functionality-list-marker:after {
+  bottom: -5px;
+  border-top-width: 5px;
+  border-top-style: solid;
+}
+
+.marker-008C95 {
+  background-color: #008c95;
+}
+.marker-008C95::before {
+  border-bottom-color: #008c95;
+}
+.marker-008C95::after {
+  border-top-color: #008c95;
+}
+
+.marker-EC6400 {
+  background-color: #ec6400;
+}
+.marker-EC6400::before {
+  border-bottom-color: #ec6400;
+}
+.marker-EC6400::after {
+  border-top-color: #ec6400;
+}
+
+.marker-FFA73F {
+  background-color: #ffa73f;
+}
+.marker-FFA73F::before {
+  border-bottom-color: #ffa73f;
+}
+.marker-FFA73F::after {
+  border-top-color: #ffa73f;
+}
+
+.marker-4FC6CE {
+  background-color: #4fc6ce;
+}
+.marker-4FC6CE::before {
+  border-bottom-color: #4fc6ce;
+}
+.marker-4FC6CE::after {
+  border-top-color: #4fc6ce;
+}
+
+.sibur-click-internal-social-network-decision-illustration-container {
+  position: relative;
+  margin-top: 60px;
+  height: 727px;
+}
+.sibur-click-internal-social-network-decision-illustration-1 {
+  position: absolute;
+  top: 0;
+  left: -163px;
+}
+.sibur-click-internal-social-network-decision-illustration-2 {
+  position: absolute;
+  top: 0;
+  left: 340px;
+}
+.sibur-click-internal-social-network-decision-illustration-3 {
+  position: absolute;
+  top: -120px;
+  right: 170px;
+}
+.sibur-click-internal-social-network-decision-illustration-4 {
+  position: absolute;
+  top: -120px;
+  right: -150px;
+}
+.sibur-click-internal-social-network-comment-container {
+  background: #e4f2f6;
+}
+.sibur-click-internal-social-network-customer-comment-container {
+  background: #e4f2f6;
+  min-height: 208px;
+}
+
+@media (max-width: 1919px) {
+  .sibur-click-internal-social-network-header-illustration {
+    height: 90%;
+    top: 228px;
+    right: 0;
+  }
+  .sibur-click-internal-social-network-definition-container {
+    left: 0;
+  }
+}
+@media (max-width: 1560px) {
+  .sibur-click-internal-social-network-decision-illustration-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .sibur-click-internal-social-network-decision-illustration-2 {
+    left: 506px;
+  }
+  .sibur-click-internal-social-network-decision-illustration-3 {
+    right: 0;
+  }
+  .sibur-click-internal-social-network-decision-illustration-4 {
+    display: none;
+  }
+}
+@media (max-width: 1439px) {
+  .sibur-click-internal-social-network-header-illustration {
+    height: 50%;
+    top: 370px;
+    right: 0;
+  }
+  .sibur-click-internal-social-network-decision-illustration-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    height: max-content;
+  }
+  .sibur-click-internal-social-network-decision-illustration-1 {
+    position: relative;
+    max-height: 100%;
+  }
+  .sibur-click-internal-social-network-decision-illustration-2 {
+    position: relative;
+    left: 0;
+    max-height: 100%;
+  }
+  .sibur-click-internal-social-network-decision-illustration-3 {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .sibur-click-internal-social-network-decision-illustration-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 960px) {
+  .sibur-click-internal-social-network-definition-container {
+    position: relative;
+    height: max-content;
+    width: max-content;
+    top: 0;
+    background-color: #d9eff2;
+    padding: 90px;
+  }
+  .sibur-click-internal-social-network-definition-illustration {
+    display: none;
+  }
+}
+@media (max-width: 929px) {
+  .sibur-click-internal-social-network-header-illustration {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .sibur-click-internal-social-network-header-illustration {
+    display: block;
+    top: 250px;
+  }
+  .sibur-click-internal-social-network-definition {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .sibur-click-internal-social-network-functionality-list {
+    gap: 10px 20px;
+  }
+  .sibur-click-internal-social-network-functionality-list-marker {
+    margin-top: 4px;
+  }
+  .sibur-click-internal-social-network-decision-illustration-container {
+    margin-top: 30px;
+  }
+  .sibur-click-internal-social-network-technology-list {
+    grid-template-columns: repeat(auto-fit, minmax(111px, 1fr));
+  }
+}
+@media (max-width: 680px) {
+  .sibur-click-internal-social-network-header-illustration {
+    display: none;
+  }
+}
+@media (max-width: 570px) {
+  .sibur-click-internal-social-network-decision-illustration-1 {
+    max-width: 100%;
+  }
+  .sibur-click-internal-social-network-decision-illustration-2 {
+    max-width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .sibur-click-internal-social-network-definition-container {
+    width: 100%;
+    padding: 60px;
+  }
+}
+
+/* SIBUR-CLICK-INTERNAL-SOCIAL-NETWORK CASE */
+.sibur-click-internal-social-network-case {
+  background: #008c95;
+  color: #008c95;
+}
+.sibur-click-internal-social-network-case-background-image {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/image-67.png);
+}
+.sibur-click-internal-social-network-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/Sibur_click_Logo.png);
+}
+.sibur-click-internal-social-network-case-title {
+  color: white;
+}
+.sibur-click-internal-social-network-case-title::before {
+  content: 'Внутренняя\Aсоциальная\Aсеть';
+  white-space: pre-wrap;
 }
