@@ -53,8 +53,6 @@ ul {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 273px;
-  padding-bottom: 111px;
   position: relative;
   overflow-x: clip;
 }
@@ -117,10 +115,6 @@ ul {
 }
 
 @media (max-width: 768px) {
-  .header {
-    padding-top: 136px;
-    padding-bottom: 146px;
-  }
   .title {
     font-size: 22px;
     line-height: 24px;
@@ -1907,5 +1901,75 @@ ul {
   .web-loan-decision-list-second-item-content-list,
   .web-loan-decision-list-third-item-content {
     margin-bottom: 112px;
+  }
+}
+
+/* NNTZ-DRILLING-OPTIMIZATION PAGE */
+.nntz-drilling-optimization-header {
+  padding-top: 190px;
+  padding-bottom: 167px;
+  background-image: url(/src/scripts/nntz-drilling-optimization/images/nntz-drilling-optimization-header-background.png);
+}
+.nntz-drilling-optimization-logo {
+  max-width: 407px;
+}
+.nntz-drilling-optimization-header-title {
+  color: #164b80;
+}
+.nntz-drilling-optimization-direction {
+  color: white;
+  background: #a0190c;
+}
+.nntz-drilling-optimization-competence {
+  color: #a0190c;
+  border-color: #a0190c;
+}
+.nntz-drilling-optimization-page-description {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+}
+.nntz-drilling-optimization-header-background-illustration {
+  position: absolute;
+  bottom: -280px;
+  right: -106px;
+}
+.nntz-drilling-optimization-task-illustration {
+  position: absolute;
+  left: 0;
+  top: -360px;
+}
+.nntz-drilling-optimization-transponder-comment-container {
+  background: #ebf0f5;
+}
+
+@media (max-width: 1919px) {
+  .nntz-drilling-optimization-header-background-illustration {
+    bottom: -160px;
+    right: 132px;
+  }
+}
+@media (max-width: 1439px) {
+  .nntz-drilling-optimization-header-background-illustration {
+    max-width: 444px;
+  }
+}
+@media (max-width: 1080px) {
+  .nntz-drilling-optimization-header-background-illustration {
+    display: none;
+  }
+  .nntz-drilling-optimization-task-illustration {
+    top: -522px;
+  }
+}
+@media (max-width: 960px) {
+  .nntz-drilling-optimization-page-description {
+    grid-template-columns: 1fr;
+  }
+  .nntz-drilling-optimization-block-with-definition {
+    grid-template-areas: 'text' 'definition';
+  }
+  .nntz-drilling-optimization-task-illustration {
+    position: relative;
+    top: 0;
   }
 }
