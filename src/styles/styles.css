@@ -1592,3 +1592,320 @@ ul {
 .case-content:hover .aml-system-case-title {
   color: white;
 }
+
+/* WEB-LOAN PAGE */
+.web-loan-header {
+  color: #1b689f;
+  background-image: url(/src/scripts/web-loan/images/web-loan-header-background-image.png);
+}
+.web-loan-title {
+  color: #1b689f;
+}
+.web-loan-direction {
+  color: white;
+  background: #1b689f;
+}
+.web-loan-competence {
+  color: #1b689f;
+  border-color: #1b689f;
+}
+.web-loan-header-background-illustration {
+  position: absolute;
+  bottom: 0;
+  right: -100px;
+}
+.web-loan-definition-area {
+  width: 480px;
+}
+.web-loan-definition-container {
+  display: grid;
+  width: 100%;
+  gap: 20px;
+}
+.web-loan-definition {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+.web-loan-definition-color {
+  color: white !important;
+}
+.web-loan-definition-background {
+  position: absolute;
+  width: 100%;
+  height: 528px;
+  top: -70px;
+  background-image: url(/src/scripts/web-loan/images/web-loan-definition-background.png);
+}
+.web-loan-first-definition-container {
+  padding: 26px;
+}
+.web-loan-last-definition-container {
+  padding: 26px;
+}
+.web-loan-decision-list-item {
+  gap: 20px;
+}
+.web-loan-decision-list-marker {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+}
+.web-loan-decision-list-first-marker {
+  background-color: #14b2c6;
+}
+.web-loan-decision-list-second-marker {
+  background-color: #1b689f;
+}
+.web-loan-decision-list-first-item-content {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-template-rows: max-content 1fr;
+  grid-template-areas: 'title illustration' 'description illustration';
+  gap: 20px;
+}
+.web-loan-decision-list-first-item-content-title-area {
+  grid-area: title;
+}
+.web-loan-decision-list-first-item-content-description-area {
+  grid-area: description;
+}
+.web-loan-decision-list-first-item-content-illustration-area {
+  width: 312px;
+  min-height: 262px;
+  grid-area: illustration;
+  position: relative;
+}
+.web-loan-decision-list-first-item-illustration {
+  max-width: 290px;
+}
+.web-loan-decision-list-first-item-illustration-addition {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 83px;
+  height: 83px;
+  background: #1789b5;
+}
+.web-loan-decision-list-second-item-content-list {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 37px;
+  padding: 50px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  margin-bottom: 80px;
+}
+.web-loan-decision-list-second-item-content-list-item-logo {
+  max-height: 34px;
+}
+.web-loan-decision-list-second-item-content-list-addition {
+  position: absolute;
+  padding: 25px 25px 25px 56px;
+  background: #1b689f;
+  max-width: 380px;
+  right: -224px;
+  bottom: -80px;
+}
+.web-loan-decision-list-second-item-content-list-addition-illustration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  background-color: #00e5b9;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 36px;
+  line-height: 42px;
+  color: #1b689f;
+}
+.web-loan-decision-list-third-item-content-list-item {
+  gap: 10px;
+}
+.web-loan-decision-list-third-item-content-list-marker {
+  width: 10px;
+  height: 10px;
+  background-color: #00e5b9;
+  margin-top: 7px;
+}
+.web-loan-decision-list-third-item-content {
+  position: relative;
+  margin-bottom: 80px;
+}
+.web-loan-decision-list-third-item-content-illustration {
+  width: 100%;
+  min-height: 200px;
+}
+.web-loan-implementation-results {
+  display: grid;
+  grid-template-rows: max-content 96px 96px 96px 96px 96px;
+  gap: 20px;
+}
+.web-loan-implementation-results-before {
+  color: #96a0a5 !important;
+}
+.web-loan-implementation-results-after {
+  color: #14b2c6 !important;
+}
+.web-loan-implementation-results-icon {
+  max-height: 13px;
+  margin-top: 7px;
+}
+.web-loan-decision-third-list-item {
+  margin-bottom: 0 !important;
+}
+.web-loan-comment-container {
+  background: #e6eef7;
+}
+.web-loan-staff-container {
+  text-align: start;
+}
+
+@media (max-width: 1919px) {
+  .web-loan-header-background-illustration {
+    max-height: 500px;
+    right: 0;
+  }
+}
+@media (max-width: 1440px) {
+  .web-loan-header-background-illustration {
+    right: 132px;
+  }
+}
+@media (max-width: 1439px) {
+  .web-loan-header-background-illustration {
+    max-height: 360px;
+    bottom: -40px;
+  }
+}
+@media (max-width: 1268px) {
+  .web-loan-decision-list-second-item-content-list-addition {
+    right: 0;
+    max-width: 349px;
+  }
+}
+@media (max-width: 1244px) {
+  .web-loan-block-with-definition {
+    grid-template-areas:
+      'definition'
+      'text';
+    grid-template-columns: 1fr;
+  }
+  .web-loan-definition-area {
+    height: 458px;
+  }
+  .web-loan-definition-container {
+    position: relative;
+    top: 0;
+  }
+}
+@media (max-width: 1180px) {
+  .web-loan-header-background-illustration {
+    max-height: 320px;
+  }
+}
+@media (max-width: 1080px) {
+  .web-loan-header-background-illustration {
+    right: 90px;
+  }
+}
+@media (max-width: 960px) {
+  .web-loan-implementation-results {
+    grid-template-rows: max-content 196px 196px 196px 196px 196px;
+  }
+}
+@media (max-width: 920px) {
+  .web-loan-header-background-illustration {
+    display: none;
+  }
+}
+@media (max-width: 864px) {
+  .web-loan-decision-list-first-item-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content max-content;
+    grid-template-areas: 'title' 'description' 'illustration';
+  }
+  .web-loan-decision-list-first-item-content-illustration-area {
+    width: 100%;
+    min-height: auto;
+  }
+  .web-loan-decision-list-first-item-illustration {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .web-loan-definition {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .web-loan-definition-container {
+    gap: 100px;
+  }
+  .web-loan-decision-list-marker {
+    width: 16px;
+    height: 16px;
+    margin-top: 0;
+  }
+  .web-loan-decision-list-item,
+  .web-loan-decision-list-first-item-content {
+    gap: 10px;
+  }
+  .web-loan-decision-list-second-item-content-list-addition {
+    bottom: -55px;
+  }
+  .web-loan-decision-list-second-item-content-list,
+  .web-loan-decision-list-third-item-content {
+    margin-bottom: 55px;
+  }
+  .web-loan-decision-list-third-item-content-list-marker {
+    margin-top: 3px;
+  }
+  .web-loan-implementation-results-icon {
+    margin-top: 0;
+  }
+  .web-loan-implementation-results {
+    grid-template-rows: max-content 128px 128px 128px 128px 128px;
+  }
+}
+@media (max-width: 564px) {
+  .web-loan-definition-area {
+    width: 100%;
+    height: max-content;
+  }
+  .web-loan-definition-background {
+    display: none;
+  }
+  .web-loan-definition-container {
+    gap: 16px;
+  }
+  .web-loan-first-definition-container {
+    background-color: #1b689f;
+  }
+  .web-loan-last-definition-container {
+    background-color: #14b2c6;
+  }
+  .web-loan-decision-list-second-item-content-list {
+    grid-template-columns: 1fr;
+  }
+  .web-loan-implementation-results {
+    grid-template-rows: max-content;
+  }
+}
+@media (max-width: 480px) {
+  .web-loan-decision-list-second-item-content-list-addition {
+    bottom: -112px;
+    max-width: 228px;
+  }
+  .web-loan-decision-list-second-item-content-list,
+  .web-loan-decision-list-third-item-content {
+    margin-bottom: 112px;
+  }
+}
