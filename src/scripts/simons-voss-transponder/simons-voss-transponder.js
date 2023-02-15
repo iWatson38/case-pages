@@ -4,7 +4,7 @@ document.getElementById('simons-voss-transponder').innerHTML = /*html*/ `
     <div class="header simons-voss-transponder-header">
         <div class="page-wrapper">
             <div>
-                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/SimonsVoss_logo.png" alt="logo" class="logo" />
+                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/SimonsVoss_logo.png" alt="logo" class="logo simons-voss-transponder-logo" />
             </div>
             <h1 class="title simons-voss-transponder-header-title">Интеграция транспондера<br>в мобильное приложение</h1>
             <div class="params">

@@ -6,7 +6,7 @@ document.getElementById(
     <div class="header nexign-telecom-operator-billing-header">
         <div class="page-wrapper">
         <div>
-            <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign_logo.png" alt="nexign_logo" class="logo" />
+            <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign_logo.png" alt="nexign_logo" class="logo nexign-telecom-operator-billing-logo" />
         </div>
         <h1 class="title nexign-telecom-operator-billing-header-title">Биллинг оператора связи</h1>
         <div class="params">

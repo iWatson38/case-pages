@@ -4,7 +4,7 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
     <div class="header web-loan-header">
         <div class="page-wrapper">
             <div>
-                <img src="/src/scripts/web-loan/images/web-loan-page-logo.png" alt="logo" class="logo" />
+                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-page-logo.png" alt="logo" class="logo web-loan-logo" />
             </div>
             <h1 class="title web-loan-title">Risk Engine для кредитной<br>организации</h1>
             <div class="params">
@@ -12,7 +12,7 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                 <p class="param competence web-loan-competence">Финтех</p>
             </div>
             <div>
-                <img src="/src/scripts/web-loan/images/web-loan-header-background-illustration.png" alt="web-loan-girl" class="web-loan-header-background-illustration" />
+                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-header-background-illustration.png" alt="web-loan-girl" class="web-loan-header-background-illustration" />
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                         <p class="paragraph web-loan-decision-list-first-item-content-description-area">Если у аналитика появилась потребность изменить бизнес-процесс скоринга, то это не составит проблем и займет несколько минут. Гибкая и интуитивно понятная настройка происходит с помощью конструктора бизнес-процессов Flowable.</p>
                         <div class="web-loan-decision-list-first-item-content-illustration-area">
                             <div>
-                                <img src="/src/scripts/web-loan/images/web-loan-decision-list-first-item-illustration.png" alt="легкая-настройка-бизнес-процессов" class="web-loan-decision-list-first-item-illustration z-index" />
+                                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-decision-list-first-item-illustration.png" alt="легкая-настройка-бизнес-процессов" class="web-loan-decision-list-first-item-illustration z-index" />
                             </div>
                             <div class="web-loan-decision-list-first-item-illustration-addition"></div>
                         </div>
@@ -68,49 +68,49 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                         <ul class="web-loan-decision-list-second-item-content-list paragraph-margin-top">
                             <li>
                                 <div>
-                                    <img src="/src/scripts/web-loan/images/NBKI.png" alt="nbki" class="web-loan-decision-list-second-item-content-list-item-logo" />
+                                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/NBKI.png" alt="nbki" class="web-loan-decision-list-second-item-content-list-item-logo" />
                                 </div>
                                 <p class="paragraph">Используется механизм кэширования, чтобы предотвратить повторные платные запросы</p>
                             </li>
                             <li>
                                 <div>
-                                    <img src="/src/scripts/web-loan/images/mail.png" alt="mail" class="web-loan-decision-list-second-item-content-list-item-logo" />
+                                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/mail.png" alt="mail" class="web-loan-decision-list-second-item-content-list-item-logo" />
                                 </div>
                                 <p class="paragraph">Определяет скор. балл, по анкетным данным клиента. Используется механизм кэширования.</p>
                             </li>
                             <li>
                                 <div>
-                                    <img src="/src/scripts/web-loan/images/equifax.png" alt="equifax" class="web-loan-decision-list-second-item-content-list-item-logo" />
+                                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/equifax.png" alt="equifax" class="web-loan-decision-list-second-item-content-list-item-logo" />
                                 </div>
                                 <p class="paragraph">Возвращает вероятностную оценку попытки мошенничества.</p>
                             </li>
                             <li>
                                 <div>
-                                    <img src="/src/scripts/web-loan/images/one-factor.png" alt="one-factor" class="web-loan-decision-list-second-item-content-list-item-logo" />
+                                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/one-factor.png" alt="one-factor" class="web-loan-decision-list-second-item-content-list-item-logo" />
                                 </div>
                                 <p class="paragraph">Возвращает оценку платежеспособности клиента по номеру телефона. Используется механизм кэширования.</p>
                             </li>
                             <li>
                                 <div>
-                                    <img src="/src/scripts/web-loan/images/iovation.png" alt="iovation" class="web-loan-decision-list-second-item-content-list-item-logo" />
+                                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/iovation.png" alt="iovation" class="web-loan-decision-list-second-item-content-list-item-logo" />
                                 </div>
                                 <p class="paragraph">Определяет вероятность фрода, по идентификатору полученному из браузера клиента</p>
                             </li>
                             <li>
                                 <div>
-                                    <img src="/src/scripts/web-loan/images/interfaks.png" alt="interfaks" class="web-loan-decision-list-second-item-content-list-item-logo" />
+                                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/interfaks.png" alt="interfaks" class="web-loan-decision-list-second-item-content-list-item-logo" />
                                 </div>
                                 <p class="paragraph">Проверка на принадлежности клиента к списку террористов или банкротов</p>
                             </li>
                             <li>
                                 <div>
-                                    <img src="/src/scripts/web-loan/images/IQID.png" alt="IQID" class="web-loan-decision-list-second-item-content-list-item-logo" />
+                                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/IQID.png" alt="IQID" class="web-loan-decision-list-second-item-content-list-item-logo" />
                                 </div>
                                 <p class="paragraph">Определяет вероятность фрода, по идентификатору полученному из браузера клиента.</p>
                             </li>
                             <li>
                                 <div>
-                                    <img src="/src/scripts/web-loan/images/juicy-store.png" alt="juicy-store" class="web-loan-decision-list-second-item-content-list-item-logo" />
+                                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/juicy-store.png" alt="juicy-store" class="web-loan-decision-list-second-item-content-list-item-logo" />
                                 </div>
                                 <p class="paragraph">Возвращает вероятность попытки на фрод.</p>
                             </li>
@@ -153,11 +153,11 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                         <h4 class="paragraph paragraph-bold">Удобный интерфейс для рискового Аналитика</h4>
                         <p class="paragraph paragraph-margin-top">Аналитик легко сможет посмотреть историю скоринга по любому клиенту или, например, подключить новую готовую скоринговую карту или cut-off сетку за несколько минут.</p>
                         <div>
-                            <img src="/src/scripts/web-loan/images/web-loan-decision-list-third-item-content-illustration.png" alt="web-loan-decision-list-third-item-content-illustration" class="web-loan-decision-list-third-item-content-illustration paragraph-margin-top" />
+                            <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-decision-list-third-item-content-illustration.png" alt="web-loan-decision-list-third-item-content-illustration" class="web-loan-decision-list-third-item-content-illustration paragraph-margin-top" />
                         </div>
                         <div class="web-loan-decision-list-second-item-content-list-addition">
                             <div class="web-loan-decision-list-second-item-content-list-addition-illustration">
-                                <img src="/src/scripts/web-loan/images/web-loan-decision-list-third-item-content-illustration-addition-icon.png" alt="web-loan-decision-list-third-item-content-illustration-addition-icon" />
+                                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-decision-list-third-item-content-illustration-addition-icon.png" alt="web-loan-decision-list-third-item-content-illustration-addition-icon" />
                             </div>
                             <p class="paragraph web-loan-definition-color">Интеграция с дополнительным внешним источником не составит проблем и займет 2-3 недели.</p>
                         </div>
@@ -172,31 +172,31 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                                 <p class="paragraph web-loan-implementation-results-before">Было:</p>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
-                                        <img src="/src/scripts/web-loan/images/web-loan-implementation-results-cross.png" alt="cross" class="web-loan-implementation-results-icon" />
+                                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-cross.png" alt="cross" class="web-loan-implementation-results-icon" />
                                     </div>
                                     <p class="paragraph web-loan-implementation-results-before">Время подключения нового источника данных занимает около 2 месяцев</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
-                                        <img src="/src/scripts/web-loan/images/web-loan-implementation-results-cross.png" alt="cross" class="web-loan-implementation-results-icon" />
+                                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-cross.png" alt="cross" class="web-loan-implementation-results-icon" />
                                     </div>
                                     <p class="paragraph web-loan-implementation-results-before">Ошибка в одном модуле – отказ всей системы</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
-                                        <img src="/src/scripts/web-loan/images/web-loan-implementation-results-cross.png" alt="cross" class="web-loan-implementation-results-icon" />
+                                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-cross.png" alt="cross" class="web-loan-implementation-results-icon" />
                                     </div>
                                     <p class="paragraph web-loan-implementation-results-before">Анализ финансовой эффективности скоринговых сервисов трудоёмкий</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
-                                        <img src="/src/scripts/web-loan/images/web-loan-implementation-results-cross.png" alt="cross" class="web-loan-implementation-results-icon" />
+                                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-cross.png" alt="cross" class="web-loan-implementation-results-icon" />
                                     </div>
                                     <p class="paragraph web-loan-implementation-results-before">Одновременная поддержка нескольких скоринговых процессов трудоёмка</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
-                                        <img src="/src/scripts/web-loan/images/web-loan-implementation-results-cross.png" alt="cross" class="web-loan-implementation-results-icon" />
+                                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-cross.png" alt="cross" class="web-loan-implementation-results-icon" />
                                     </div>
                                     <p class="paragraph web-loan-implementation-results-before">Использование аналитиком текущего интерфейса требует обучения и времени</p>
                                 </li>
@@ -205,31 +205,31 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                                 <p class="paragraph paragraph web-loan-implementation-results-after">Стало:</p>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
-                                        <img src="/src/scripts/web-loan/images/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
+                                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
                                     </div>
                                     <p class="paragraph web-loan-implementation-results-after">Время подключения нового источника данных –2-3 недели</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
-                                        <img src="/src/scripts/web-loan/images/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
+                                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
                                     </div>
                                     <p class="paragraph web-loan-implementation-results-after">Ошибка в одном модуле не влияет на результаты скоринга</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
-                                        <img src="/src/scripts/web-loan/images/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
+                                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
                                     </div>
                                     <p class="paragraph web-loan-implementation-results-after">Возможность предоставления отчетности по каждому скоринговому сервису отдельно</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
-                                        <img src="/src/scripts/web-loan/images/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
+                                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
                                     </div>
                                     <p class="paragraph web-loan-implementation-results-after">Быстрый запуск нескольких скоринговых процессов одновременно и сравнение их фактических доходностей</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
-                                        <img src="/src/scripts/web-loan/images/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
+                                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
                                     </div>
                                     <p class="paragraph web-loan-implementation-results-after">Интуитивно понятный веб-интерфейс, позволяющий решать задачи за считанные минуты</p>
                                 </li>
@@ -269,13 +269,13 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                 </li>
                 <li class="technology-container">
                     <div>
-                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/" alt="Flowable" class="technology-logo" />
+                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/Flowable.png" alt="Flowable" class="technology-logo" />
                     </div>
                     <p class="technology-name">Flowable</p>
                 </li>
                 <li class="technology-container">
                     <div>
-                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/" alt="Vaadin" class="technology-logo" />
+                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/Vaadin.png" alt="Vaadin" class="technology-logo" />
                     </div>
                     <p class="technology-name">Vaadin</p>
                 </li>
@@ -287,13 +287,13 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                 </li>
                 <li class="technology-container">
                     <div>
-                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/" alt="Prometheus" class="technology-logo" />
+                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/Prometheus.png" alt="Prometheus" class="technology-logo" />
                     </div>
                     <p class="technology-name">Prometheus</p>
                 </li>
                 <li class="technology-container">
                     <div>
-                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/" alt="Grafana" class="technology-logo" />
+                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/Grafana.png" alt="Grafana" class="technology-logo" />
                     </div>
                     <p class="technology-name">Grafana</p>
                 </li>
@@ -316,7 +316,7 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                     </div>
                 </div>
                 <div>
-                    <img src="/src/scripts/web-loan/images/Bogush-Vladimir.png" alt="Bogush-Vladimir" class="staff-photo" />
+                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/Bogush-Vladimir.png" alt="Bogush-Vladimir" class="staff-photo" />
                 </div>
             </div>
             <div class="section staff-comment-section mirroring">
@@ -334,7 +334,7 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                     </div>
                 </div>
                 <div>
-                    <img src="/src/scripts/web-loan/images/grigoriy-muleev.png" alt="grigoriy-muleev" class="staff-photo mirroring" />
+                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/grigoriy-muleev.png" alt="grigoriy-muleev" class="staff-photo mirroring" />
                 </div>
             </div>
         </section>

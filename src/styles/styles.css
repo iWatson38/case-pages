@@ -58,7 +58,6 @@ ul {
 }
 .logo {
   width: 100%;
-  max-width: 700px;
 }
 .title {
   font-style: normal;
@@ -467,7 +466,12 @@ ul {
 
 /* NEXIGN-B2B PAGE */
 .nexign-b2b-header {
+  padding-top: 205px;
+  padding-bottom: 167px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign-b2b-header-background.png);
+}
+.nexign-b2b-logo {
+  max-width: 700px;
 }
 .nexign-b2b-header-title {
   color: white;
@@ -563,7 +567,12 @@ ul {
 
 /* NEXIGN-TELECOM-OPERATOR-BILLING PAGE */
 .nexign-telecom-operator-billing-header {
+  padding-top: 198px;
+  padding-bottom: 157px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign-telecom-operator-billing-header-background.png);
+}
+.nexign-telecom-operator-billing-logo {
+  max-width: 700px;
 }
 .nexign-telecom-operator-billing-header-title {
   color: white;
@@ -625,7 +634,12 @@ ul {
 
 /* BKS-INVESTORS-PERSONAL-ACCOUNT PAGE */
 .bks-investors-personal-account-header {
+  padding-top: 257px;
+  padding-bottom: 167px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/BksHeaderBackground.png);
+}
+.bks-investors-personal-account-logo {
+  max-width: 780px;
 }
 .bks-investors-personal-account-header-title {
   color: white;
@@ -704,6 +718,13 @@ ul {
   background: #f5f7fa;
 }
 
+@media (max-width: 1600px) {
+  .bks-investors-personal-account-header-background-illustration {
+    height: 680px;
+    top: auto;
+    bottom: -182px;
+  }
+}
 @media (max-width: 1439px) {
   .bks-investors-personal-account-header-background-illustration {
     height: 460px;
@@ -741,6 +762,9 @@ ul {
   }
 }
 @media (max-width: 768px) {
+  .bks-investors-personal-account-header {
+    padding-top: 167px;
+  }
   .bks-investors-personal-account-task-list-item {
     gap: 10px;
   }
@@ -776,7 +800,12 @@ ul {
 /* WHOOSH-MOS-TRANSPORT PAGE */
 .whoosh-mos-transport-header {
   color: #363636;
+  padding-top: 273px;
+  padding-bottom: 111px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/01/WhooshMosTransportHeaderBackground.png);
+}
+.whoosh-mos-transport-logo {
+  max-width: 840px;
 }
 .whoosh-mos-transport-header-content-container {
   display: grid;
@@ -892,6 +921,9 @@ ul {
   }
 }
 @media (max-width: 768px) {
+  .whoosh-mos-transport-header {
+    padding-top: 167px;
+  }
   .whoosh-mos-transport-header-subtitle-container {
     margin: 30px 0 10px;
   }
@@ -904,7 +936,7 @@ ul {
     line-height: 24px;
   }
   .whoosh-mos-transport-header-background-illustration {
-    height: 150%;
+    height: 136%;
     top: 20px;
   }
   .whoosh-mos-transport-list-item {
@@ -928,13 +960,13 @@ ul {
 }
 @media (max-width: 580px) {
   .whoosh-mos-transport-header-background-illustration {
-    top: 120px;
+    top: 100px;
     height: 100%;
   }
 }
 @media (max-width: 480px) {
   .whoosh-mos-transport-header-background-illustration {
-    top: 190px;
+    top: 160px;
     height: 80%;
   }
 }
@@ -1017,7 +1049,12 @@ ul {
 /* SIMONS-VOSS-TRANSPONDER PAGE */
 .simons-voss-transponder-header {
   color: #a9ab56;
+  padding-top: 265px;
+  padding-bottom: 103px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/simons-voss-transponder-header-background.png);
+}
+.simons-voss-transponder-logo {
+  max-width: 783px;
 }
 .simons-voss-transponder-header-title {
   color: white;
@@ -1077,6 +1114,9 @@ ul {
   }
 }
 @media (max-width: 768px) {
+  .simons-voss-transponder-header {
+    padding-top: 167px;
+  }
   .simons-voss-transponder-definition {
     font-size: 20px;
     line-height: 22px;
@@ -1120,7 +1160,12 @@ ul {
   overflow: hidden;
 }
 .sibur-click-internal-social-network-header {
+  padding-top: 269px;
+  padding-bottom: 103px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/sibur-click-internal-social-network-banner-back.png);
+}
+.sibur-click-internal-social-network-logo {
+  max-width: 659px;
 }
 .sibur-click-internal-social-network-title {
   color: white;
@@ -1347,9 +1392,8 @@ ul {
   }
 }
 @media (max-width: 768px) {
-  .sibur-click-internal-social-network-header-illustration {
-    display: block;
-    top: 250px;
+  .sibur-click-internal-social-network-header {
+    padding-top: 167px;
   }
   .sibur-click-internal-social-network-definition {
     font-size: 24px;
@@ -1411,6 +1455,8 @@ ul {
 .aml-system-header {
   color: #e41d30;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/aml-system-header-background.png);
+  padding-top: 280px;
+  padding-bottom: 167px;
 }
 .aml-system-title {
   font-style: normal;
@@ -1418,6 +1464,7 @@ ul {
   font-size: 80px;
   line-height: 90px;
   color: #e41d30;
+  margin: 0;
 }
 .aml-system-direction {
   color: white;
@@ -1530,6 +1577,9 @@ ul {
   }
 }
 @media (max-width: 768px) {
+  .aml-system-header {
+    padding-top: 167px;
+  }
   .aml-system-title {
     font-size: 50px;
     line-height: 54px;
@@ -1591,6 +1641,11 @@ ul {
 .web-loan-header {
   color: #1b689f;
   background-image: url(/src/scripts/web-loan/images/web-loan-header-background-image.png);
+  padding-top: 169px;
+  padding-bottom: 167px;
+}
+.web-loan-logo {
+  max-width: 586px;
 }
 .web-loan-title {
   color: #1b689f;
@@ -1605,7 +1660,7 @@ ul {
 }
 .web-loan-header-background-illustration {
   position: absolute;
-  bottom: 0;
+  bottom: -118px;
   right: -100px;
 }
 .web-loan-definition-area {
@@ -1765,18 +1820,7 @@ ul {
 @media (max-width: 1919px) {
   .web-loan-header-background-illustration {
     max-height: 500px;
-    right: 0;
-  }
-}
-@media (max-width: 1440px) {
-  .web-loan-header-background-illustration {
     right: 132px;
-  }
-}
-@media (max-width: 1439px) {
-  .web-loan-header-background-illustration {
-    max-height: 360px;
-    bottom: -40px;
   }
 }
 @media (max-width: 1268px) {
@@ -1802,7 +1846,7 @@ ul {
 }
 @media (max-width: 1180px) {
   .web-loan-header-background-illustration {
-    max-height: 320px;
+    max-height: 380px;
   }
 }
 @media (max-width: 1080px) {
@@ -1904,11 +1948,43 @@ ul {
   }
 }
 
+/* WEB-LOAN CASE */
+.web-loan-case {
+  background: #f6fcff;
+  color: #2b56b9;
+}
+.web-loan-case-background-image {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-case-background-image.png);
+}
+.web-loan-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-case-logo.png);
+}
+.case-content:hover .web-loan-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-case-active-logo.png);
+}
+.web-loan-case-title {
+  color: #164b80;
+}
+.web-loan-case-title::before {
+  content: 'Risk Engine для кредитной\Aорганизации';
+  white-space: pre-wrap;
+}
+.case-content:hover .web-loan-case-title {
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .web-loan-case-background-image {
+    width: 480px;
+  }
+}
+
 /* NNTZ-DRILLING-OPTIMIZATION PAGE */
 .nntz-drilling-optimization-header {
+  color: #164b80;
   padding-top: 190px;
   padding-bottom: 167px;
-  background-image: url(/src/scripts/nntz-drilling-optimization/images/nntz-drilling-optimization-header-background.png);
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nntz-drilling-optimization-header-background.png);
 }
 .nntz-drilling-optimization-logo {
   max-width: 407px;
@@ -1972,4 +2048,268 @@ ul {
     position: relative;
     top: 0;
   }
+}
+@media (max-width: 480px) {
+  .nntz-drilling-optimization-task-illustration {
+    max-width: 100%;
+  }
+}
+
+/* NNTZ-DRILLING-OPTIMIZATION CASE */
+.nntz-drilling-optimization-case {
+  background: #ebf0f5;
+  color: #8e0d00;
+}
+.nntz-drilling-optimization-case-background-image {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nntz-drilling-optimization-case-background-image.png);
+}
+.nntz-drilling-optimization-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nntz-drilling-optimization-case-logo.png);
+}
+.case-content:hover .nntz-drilling-optimization-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nntz-drilling-optimization-case-active-logo.png);
+}
+.nntz-drilling-optimization-case-title {
+  color: #164b80;
+}
+.nntz-drilling-optimization-case-title::before {
+  content: 'Оптимизация\Aбурения нефтяных\Aскважин';
+  white-space: pre-wrap;
+}
+.case-content:hover .nntz-drilling-optimization-case-title {
+  color: white;
+}
+
+/* BPS-ANDROID-SDK PAGE */
+.bps-android-sdk-header {
+  padding-top: 189px;
+  padding-bottom: 103px;
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/bps-android-sdk-header-background.png);
+}
+.bps-android-sdk-logo {
+  max-width: 413px;
+}
+.bps-android-sdk-header-title {
+  color: white;
+}
+.bps-android-sdk-direction {
+  color: #004c8a;
+  background: white;
+}
+.bps-android-sdk-competence {
+  color: white;
+  border-color: white;
+}
+.bps-android-sdk-device-types-list-marker {
+  background-color: white;
+}
+.bps-android-sdk-device-type {
+  color: white;
+}
+.bps-android-sdk-description-list-marker {
+  width: 10px;
+  height: 10px;
+  margin-top: 7px;
+  background-color: #0078da;
+  border-radius: 50%;
+}
+.bps-android-sdk-description-list-item {
+  gap: 10px;
+}
+.bps-android-sdk-definition-area {
+  position: relative;
+  width: 404px;
+}
+.bps-android-sdk-definition {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+}
+.bps-android-sdk-comment-container {
+  background: #e6eef7;
+}
+
+@media (max-width: 960px) {
+  .bps-android-sdk-main {
+    top: -100px;
+  }
+  .bps-android-sdk-block-with-definition {
+    justify-items: center;
+  }
+  .bps-android-sdk-definition {
+    position: relative;
+    top: 0;
+    max-width: 404px;
+  }
+}
+@media (max-width: 480px) {
+  .bps-android-sdk-definition-area {
+    width: 100%;
+  }
+  .bps-android-sdk-definition {
+    max-width: 100%;
+  }
+}
+
+/* BPS-ANDROID-SDK CASE */
+.bps-android-sdk-case {
+  background: #0078da;
+  color: #001a39;
+}
+.bps-android-sdk-case-background-image {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/bps-android-sdk-case-background-image.png);
+}
+.bps-android-sdk-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/bps-android-sdk-case-logo.png);
+}
+.bps-android-sdk-title {
+  color: white;
+}
+.bps-android-sdk-title::before {
+  content: 'Android SDK для\Aинтеграции\Aформы оплаты';
+  white-space: pre-wrap;
+}
+
+/* GLOBALTRUCK-AUCTION-MICROSERVICE PAGE */
+.globaltruck-auction-microservice-header {
+  padding-top: 234px;
+  padding-bottom: 167px;
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/globaltruck-auction-microservice-header-background.png);
+}
+.globaltruck-auction-microservice-logo {
+  max-width: 775px;
+}
+.globaltruck-auction-microservice-header-title {
+  color: white;
+}
+.globaltruck-auction-microservice-direction {
+  color: #001a39;
+  background: #1ec7fb;
+}
+.globaltruck-auction-microservice-competence {
+  color: #1ec7fb;
+  border-color: #1ec7fb;
+}
+.globaltruck-auction-microservice-description-list-item {
+  gap: 10px;
+}
+.globaltruck-auction-microservice-description-list-marker {
+  width: 14px;
+  height: 14px;
+  background: #006fe7;
+  margin-top: 5px;
+}
+.globaltruck-auction-microservice-definition-area {
+  position: relative;
+  width: 528px;
+}
+.globaltruck-auction-microservice-definition-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+.globaltruck-auction-microservice-definition-illustration {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+.globaltruck-auction-microservice-definition-content {
+  padding: 124px 67px 78px 80px;
+}
+.globaltruck-auction-microservice-definition-active-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.globaltruck-auction-microservice-definition {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 76px;
+  margin: 0;
+}
+.globaltruck-auction-microservice-definition-color {
+  color: #0025cd !important;
+}
+.globaltruck-auction-microservice-comment-container {
+  background: #e5e9f9;
+}
+.globaltruck-auction-microservice-decision-illustration {
+  width: 100%;
+}
+.globaltruck-auction-microservice-decision-illustration-mobile {
+  width: 100%;
+  max-width: 336px;
+  margin: 0 auto;
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  .globaltruck-auction-microservice-block-with-definition {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'text' 'definition';
+  }
+  .globaltruck-auction-microservice-definition-container {
+    position: relative;
+    top: 0;
+    transform: translate(0, 0);
+  }
+}
+@media (max-width: 768px) {
+  .globaltruck-auction-microservice-header {
+    padding-top: 167px;
+  }
+  .globaltruck-auction-microservice-description-list-marker {
+    margin-top: 2px;
+  }
+  .globaltruck-auction-microservice-decision-illustration {
+    display: none;
+  }
+  .globaltruck-auction-microservice-decision-illustration-mobile {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .globaltruck-auction-microservice-definition-illustration {
+    display: none;
+  }
+  .globaltruck-auction-microservice-definition-area {
+    width: 100%;
+    max-width: 369px;
+    border: 4px solid #1ec7fb;
+  }
+  .globaltruck-auction-microservice-definition-content {
+    padding: 30px;
+  }
+}
+@media (max-width: 433px) {
+  .globaltruck-auction-microservice-definition-active-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+/* GLOBALTRUCK-AUCTION-MICROSERVICE CASE */
+.globaltruck-auction-microservice-case {
+  background: #00122f;
+  color: #004984;
+}
+.globaltruck-auction-microservice-case-background-image {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/Globaltruck_preview.png);
+}
+.globaltruck-auction-microservice-case-logo {
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/Globaltruck_logo.png);
+}
+.globaltruck-auction-microservice-case-title {
+  color: white;
+}
+.globaltruck-auction-microservice-case-title::before {
+  content: 'Микросервис\A аукционов для\A FTL-перевозчика';
+  white-space: pre-wrap;
 }

@@ -4,7 +4,7 @@ document.getElementById('nntz-drilling-optimization').innerHTML = /* html */ `
     <div class="header nntz-drilling-optimization-header">
         <div class="page-wrapper">
             <div>
-                <img src="/src/scripts/nntz-drilling-optimization/images/nntz-drilling-optimization-logo.png" alt="logo" class="logo nntz-drilling-optimization-logo" />
+                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/nntz-drilling-optimization-logo.png" alt="logo" class="logo nntz-drilling-optimization-logo" />
             </div>
             <h1 class="title nntz-drilling-optimization-header-title">Оптимизация бурения<br>нефтяных скважин</h1>
             <div class="params">
@@ -12,7 +12,7 @@ document.getElementById('nntz-drilling-optimization').innerHTML = /* html */ `
                 <p class="param competence nntz-drilling-optimization-competence">Ритейл</p>
             </div>
             <div>
-                <img src="/src/scripts/nntz-drilling-optimization/images/nntz-drilling-optimization-header-background-illustration.png" alt="header-background-illustration" class="nntz-drilling-optimization-header-background-illustration" />
+                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/nntz-drilling-optimization-header-background-illustration.png" alt="header-background-illustration" class="nntz-drilling-optimization-header-background-illustration" />
             </div>
         </div>
     </div>
@@ -31,7 +31,7 @@ document.getElementById('nntz-drilling-optimization').innerHTML = /* html */ `
             <div class="block-with-definition nntz-drilling-optimization-block-with-definition">
                 <p class="paragraph text-area content-wrapper">Реализация современного web-интерфейса для модели, определяющей очередность бурения.</p>
                 <div class="definition-area">
-                    <img src="/src/scripts/nntz-drilling-optimization/images/nntz-drilling-optimization-task-illustration.png" alt="task-illustration" class="nntz-drilling-optimization-task-illustration" />
+                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/nntz-drilling-optimization-task-illustration.png" alt="task-illustration" class="nntz-drilling-optimization-task-illustration" />
                 </div>
             </div>
         </section>
@@ -78,7 +78,7 @@ document.getElementById('nntz-drilling-optimization').innerHTML = /* html */ `
                 </li>
                 <li class="technology-container">
                     <div>
-                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/gitlab-ci.png" alt="gitlab-ci" class="technology-logo" />
+                        <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/GitLab-CI.png" alt="gitlab-ci" class="technology-logo" />
                     </div>
                     <p class="technology-name">GitLab CI</p>
                 </li>

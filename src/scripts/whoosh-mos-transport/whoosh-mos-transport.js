@@ -4,7 +4,7 @@ document.getElementById('whoosh-mos-transport').innerHTML = /*html*/ `
     <div class="header whoosh-mos-transport-header">
         <div class="page-wrapper whoosh-mos-transport-header-content-container">
             <div class="whoosh-mos-transport-logo-container">
-                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/01/WhooshLogo.png" alt="whoosh-mos-transport-logo" class="logo" />
+                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/01/WhooshLogo.png" alt="whoosh-mos-transport-logo" class="logo whoosh-mos-transport-logo" />
             </div>
             <div class="whoosh-mos-transport-header-content">
                 <div class="whoosh-mos-transport-header-subtitle-container">
@@ -33,7 +33,7 @@ document.getElementById('whoosh-mos-transport').innerHTML = /*html*/ `
 
         <section class="section">
             <h2 class="section-title">Задача</h2>
-            <p class="paragraph">Провести интеграцию сервиса Московского Транспорта с Whoosh <a href= href="https://transport.mos.ru" class="whoosh-mos-transport-link">(https://transport.mos.ru)</a>.</p>
+            <p class="paragraph">Провести интеграцию сервиса Московского Транспорта с Whoosh <a href="https://transport.mos.ru" class="whoosh-mos-transport-link">(https://transport.mos.ru)</a>.</p>
             <p class="paragraph paragraph-margin-top">Интеграция позволит:</p>
             <ul class="simple-list paragraph-margin-top content-wrapper">
                 <li class="simple-list-item whoosh-mos-transport-list-item">

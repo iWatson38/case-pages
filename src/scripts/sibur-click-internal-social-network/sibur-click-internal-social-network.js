@@ -7,7 +7,7 @@ document.getElementById(
         <div class="header sibur-click-internal-social-network-header">
             <div class="page-wrapper">
                 <div>
-                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/Sibur_click_Logo-1.png" alt="logo" class="logo" />
+                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/Sibur_click_Logo-1.png" alt="logo" class="logo sibur-click-internal-social-network-logo" />
                 </div>
                 <h1 class="title sibur-click-internal-social-network-title">Интеграция транспондера<br>в мобильное приложение</h1>
                 <div class="params">

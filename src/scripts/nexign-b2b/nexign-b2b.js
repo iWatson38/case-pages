@@ -4,7 +4,7 @@ document.getElementById('nexign-b2b').innerHTML = /*html*/ `
     <div class="header nexign-b2b-header">
         <div class="page-wrapper">
             <div>
-                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign_logo.png" alt="logo" class="logo" />
+                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign_logo.png" alt="logo" class="logo nexign-b2b-logo" />
             </div>
             <h1 class="title nexign-b2b-header-title">B2B-портал для операторов связи</h1>
             <div class="params">

@@ -4,7 +4,7 @@ document.getElementById('bks-investors-personal-account').innerHTML = /*html*/ `
     <div class="header bks-investors-personal-account-header">
         <div class="page-wrapper">
             <div>
-                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/01/BksLogo.png" alt="bks-logo" class="logo" />
+                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/01/BksLogo.png" alt="bks-logo" class="logo bks-investors-personal-account-logo" />
             </div>
             <h1 class="title bks-investors-personal-account-header-title">Разработка личного кабинета инвестора</h1>
             <div class="params">
