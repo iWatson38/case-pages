@@ -13,7 +13,7 @@ document.getElementById('whoosh-mos-transport').innerHTML = /*html*/ `
                     </div>
                     <p class="whoosh-mos-transport-header-subtitle">Московский транспорт</p>
                 </div>
-                <h1 class="title">Интеграция с Мос Транспортом</h1>
+                <h1 class="title whoosh-mos-transport-header-title">Интеграция с Мос Транспортом</h1>
                 <div class="params">
                     <p class="param direction whoosh-mos-transport-direction">Веб система</p>
                     <p class="param competence whoosh-mos-transport-competence">Кикшеринг</p>
@@ -53,15 +53,15 @@ document.getElementById('whoosh-mos-transport').innerHTML = /*html*/ `
 
         <section class="section">
             <h2 class="section-title">Решение</h2>
-            <p class="paragraph content-wrapper">На серверной части необходимо были реализовать протокол, которыйиспользует Мос Транспортом для взаимодействия с другими поставщикамисамокатов ивелотранспортом.</p>
-            <p class="paragraph paragraph-margin-top content-wrapper">Этот протокол включает в себя получение информации о расположениисамокатов, бронировании, начала поездки, завершении поездки и т.д.</p>
-            <p class="paragraph paragraph-margin-top content-wrapper">Важно было сохранить контекст. Если клиент после Мос Транспортаустановит приложение Whoosh, то система распознает его и покажетинформацию о совершенных поездках.</p>
+            <p class="paragraph content-wrapper">На серверной части необходимо были реализовать протокол, который использует Мос Транспортом для взаимодействия с другими поставщиками самокатов и велотранспортом.</p>
+            <p class="paragraph paragraph-margin-top content-wrapper">Этот протокол включает в себя получение информации о расположении самокатов, бронировании, начала поездки, завершении поездки и т.д.</p>
+            <p class="paragraph paragraph-margin-top content-wrapper">Важно было сохранить контекст. Если клиент после Мос Транспорта установит приложение Whoosh, то система распознает его и покажет информацию о совершенных поездках.</p>
             <div class="whoosh-mos-transport-decision-illustration-container">
                 <div>
-                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/01/WhooshMosTransportHeaderDecisionIllustration_1.png" alt="whoosh-mos-transport-decision-illustration-1" class="whoosh-mos-transport-decision-illustration" />
+                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/WhooshMosTransportHeaderDecisionIllustration_1.png" alt="whoosh-mos-transport-decision-illustration-1" class="whoosh-mos-transport-decision-illustration" />
                 </div>
                 <div>
-                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/01/WhooshMosTransportHeaderDecisionIllustration_2.png" alt="whoosh-mos-transport-decision-illustration-2" class="whoosh-mos-transport-decision-illustration" />
+                    <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/WhooshMosTransportHeaderDecisionIllustration_2.png" alt="whoosh-mos-transport-decision-illustration-2" class="whoosh-mos-transport-decision-illustration" />
                 </div>
             </div>
         </section>

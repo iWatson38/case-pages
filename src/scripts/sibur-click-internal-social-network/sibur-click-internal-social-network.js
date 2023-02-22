@@ -9,7 +9,7 @@ document.getElementById(
                 <div>
                     <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/Sibur_click_Logo-1.png" alt="logo" class="logo sibur-click-internal-social-network-logo" />
                 </div>
-                <h1 class="title sibur-click-internal-social-network-title">Интеграция транспондера<br>в мобильное приложение</h1>
+                <h1 class="title sibur-click-internal-social-network-title">Внутренняя социальная сеть</h1>
                 <div class="params">
                     <p class="param direction sibur-click-internal-social-network-direction">Мобильное решение</p>
                     <p class="param competence sibur-click-internal-social-network-competence">Ритейл</p>

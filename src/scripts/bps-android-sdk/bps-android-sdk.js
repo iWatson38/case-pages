@@ -6,7 +6,7 @@ document.getElementById('bps-android-sdk').innerHTML = /*html*/ `
             <div>
                 <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/bps-android-sdk-logo.png" alt="logo" class="logo bps-android-sdk-logo" />
             </div>
-            <h1 class="title bps-android-sdk-header-title">B2B-портал для операторов связи</h1>
+            <h1 class="title bps-android-sdk-header-title">Android SDK для интеграции<br>формы оплаты</h1>
             <div class="params">
                 <p class="param direction bps-android-sdk-direction">Веб система</p>
                 <p class="param competence bps-android-sdk-competence">Ритейл</p>

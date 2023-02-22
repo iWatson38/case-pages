@@ -70,7 +70,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  margin: 70px 0 0;
+  margin: 60px 0 0;
 }
 .param {
   font-style: normal;
@@ -93,7 +93,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  margin: 30px 0 0;
+  margin: 20px 0 0;
 }
 .device-type-container {
   display: flex;
@@ -466,8 +466,8 @@ ul {
 
 /* NEXIGN-B2B PAGE */
 .nexign-b2b-header {
-  padding-top: 205px;
-  padding-bottom: 167px;
+  padding-top: 163px;
+  padding-bottom: 120px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign-b2b-header-background.png);
 }
 .nexign-b2b-logo {
@@ -567,8 +567,8 @@ ul {
 
 /* NEXIGN-TELECOM-OPERATOR-BILLING PAGE */
 .nexign-telecom-operator-billing-header {
-  padding-top: 198px;
-  padding-bottom: 157px;
+  padding-top: 163px;
+  padding-bottom: 120px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nexign-telecom-operator-billing-header-background.png);
 }
 .nexign-telecom-operator-billing-logo {
@@ -634,12 +634,13 @@ ul {
 
 /* BKS-INVESTORS-PERSONAL-ACCOUNT PAGE */
 .bks-investors-personal-account-header {
-  padding-top: 257px;
-  padding-bottom: 167px;
+  padding-top: 227px;
+  padding-bottom: 164px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/BksHeaderBackground.png);
 }
 .bks-investors-personal-account-logo {
   max-width: 780px;
+  max-height: 125px;
 }
 .bks-investors-personal-account-header-title {
   color: white;
@@ -654,15 +655,8 @@ ul {
 }
 .bks-investors-personal-account-header-background-illustration {
   position: absolute;
-  top: 200px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/BksBackgroundIllustration.png);
-  background-position-x: right;
-  background-position-y: top;
-  background-repeat: no-repeat;
-  background-size: contain;
+  top: -90px;
+  right: -534px;
 }
 .bks-investors-personal-account-task-list-item {
   gap: 20px;
@@ -720,16 +714,9 @@ ul {
 
 @media (max-width: 1600px) {
   .bks-investors-personal-account-header-background-illustration {
-    height: 680px;
-    top: auto;
-    bottom: -182px;
-  }
-}
-@media (max-width: 1439px) {
-  .bks-investors-personal-account-header-background-illustration {
-    height: 460px;
-    top: auto;
-    bottom: -116px;
+    height: 500px;
+    top: 123px;
+    right: -243px;
   }
 }
 @media (max-width: 1300px) {
@@ -800,8 +787,8 @@ ul {
 /* WHOOSH-MOS-TRANSPORT PAGE */
 .whoosh-mos-transport-header {
   color: #363636;
-  padding-top: 273px;
-  padding-bottom: 111px;
+  padding-top: 222px;
+  padding-bottom: 149px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/01/WhooshMosTransportHeaderBackground.png);
 }
 .whoosh-mos-transport-logo {
@@ -822,7 +809,7 @@ ul {
   display: flex;
   gap: 24px;
   align-items: center;
-  margin: 70px 0 23px;
+  margin: 40px 0 20px;
 }
 .whoosh-mos-transport-header-subtitle-logo {
   width: 38px;
@@ -838,6 +825,7 @@ ul {
 }
 .whoosh-mos-transport-header-title {
   color: #363636;
+  margin: 0;
 }
 .whoosh-mos-transport-direction {
   color: #ffc200;
@@ -1049,8 +1037,8 @@ ul {
 /* SIMONS-VOSS-TRANSPONDER PAGE */
 .simons-voss-transponder-header {
   color: #a9ab56;
-  padding-top: 265px;
-  padding-bottom: 103px;
+  padding-top: 225px;
+  padding-bottom: 114px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/simons-voss-transponder-header-background.png);
 }
 .simons-voss-transponder-logo {
@@ -1160,8 +1148,8 @@ ul {
   overflow: hidden;
 }
 .sibur-click-internal-social-network-header {
-  padding-top: 269px;
-  padding-bottom: 103px;
+  padding-top: 225px;
+  padding-bottom: 147px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/sibur-click-internal-social-network-banner-back.png);
 }
 .sibur-click-internal-social-network-logo {
@@ -1186,8 +1174,9 @@ ul {
 }
 .sibur-click-internal-social-network-header-illustration {
   position: absolute;
-  top: 60px;
-  right: 100px;
+  top: 63px;
+  right: 110px;
+  max-width: 713px;
 }
 .sibur-click-internal-social-network-definition {
   font-style: normal;
@@ -1455,8 +1444,8 @@ ul {
 .aml-system-header {
   color: #e41d30;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/aml-system-header-background.png);
-  padding-top: 280px;
-  padding-bottom: 167px;
+  padding-top: 262px;
+  padding-bottom: 158px;
 }
 .aml-system-title {
   font-style: normal;
@@ -1640,9 +1629,9 @@ ul {
 /* WEB-LOAN PAGE */
 .web-loan-header {
   color: #1b689f;
-  background-image: url(/src/scripts/web-loan/images/web-loan-header-background-image.png);
-  padding-top: 169px;
-  padding-bottom: 167px;
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-header-background-image.png);
+  padding-top: 163px;
+  padding-bottom: 128px;
 }
 .web-loan-logo {
   max-width: 586px;
@@ -1660,8 +1649,9 @@ ul {
 }
 .web-loan-header-background-illustration {
   position: absolute;
-  bottom: -118px;
+  bottom: -50px;
   right: -100px;
+  max-height: 600px;
 }
 .web-loan-definition-area {
   width: 480px;
@@ -1687,7 +1677,7 @@ ul {
   width: 100%;
   height: 528px;
   top: -70px;
-  background-image: url(/src/scripts/web-loan/images/web-loan-definition-background.png);
+  background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-definition-background.png);
 }
 .web-loan-first-definition-container {
   padding: 26px;
@@ -1844,7 +1834,7 @@ ul {
     top: 0;
   }
 }
-@media (max-width: 1180px) {
+@media (max-width: 1260px) {
   .web-loan-header-background-illustration {
     max-height: 380px;
   }
@@ -1854,14 +1844,14 @@ ul {
     right: 90px;
   }
 }
+@media (max-width: 1000px) {
+  .web-loan-header-background-illustration {
+    display: none;
+  }
+}
 @media (max-width: 960px) {
   .web-loan-implementation-results {
     grid-template-rows: max-content 196px 196px 196px 196px 196px;
-  }
-}
-@media (max-width: 920px) {
-  .web-loan-header-background-illustration {
-    display: none;
   }
 }
 @media (max-width: 864px) {
@@ -1982,8 +1972,8 @@ ul {
 /* NNTZ-DRILLING-OPTIMIZATION PAGE */
 .nntz-drilling-optimization-header {
   color: #164b80;
-  padding-top: 190px;
-  padding-bottom: 167px;
+  padding-top: 186px;
+  padding-bottom: 131px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/nntz-drilling-optimization-header-background.png);
 }
 .nntz-drilling-optimization-logo {
@@ -2082,8 +2072,8 @@ ul {
 
 /* BPS-ANDROID-SDK PAGE */
 .bps-android-sdk-header {
-  padding-top: 189px;
-  padding-bottom: 103px;
+  padding-top: 165px;
+  padding-bottom: 109px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/bps-android-sdk-header-background.png);
 }
 .bps-android-sdk-logo {
@@ -2173,8 +2163,8 @@ ul {
 
 /* GLOBALTRUCK-AUCTION-MICROSERVICE PAGE */
 .globaltruck-auction-microservice-header {
-  padding-top: 234px;
-  padding-bottom: 167px;
+  padding-top: 201px;
+  padding-bottom: 135px;
   background-image: url(http://192.168.1.112:8080/wp-content/uploads/2023/02/globaltruck-auction-microservice-header-background.png);
 }
 .globaltruck-auction-microservice-logo {
@@ -2208,7 +2198,7 @@ ul {
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(0, -50%);
+  transform: translate(0, -40%);
 }
 .globaltruck-auction-microservice-definition-illustration {
   position: absolute;

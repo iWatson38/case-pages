@@ -11,8 +11,10 @@ document.getElementById('bks-investors-personal-account').innerHTML = /*html*/ `
                 <p class="param direction bks-investors-personal-account-direction">Веб система</p>
                 <p class="param competence bks-investors-personal-account-competence">Финтех</p>
             </div>
+            <div>
+                <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/BksBackgroundIllustration.png" alt="illustration" class="bks-investors-personal-account-header-background-illustration" />
+            </div>
         </div>
-        <div class="bks-investors-personal-account-header-background-illustration"></div>
     </div>
 
     <div class="page-wrapper">
@@ -27,10 +29,10 @@ document.getElementById('bks-investors-personal-account').innerHTML = /*html*/ `
 
         <section class="section">
             <h2 class="section-title">Задача</h2>
-            <p class="paragraph bks-content-wrapper">
+            <p class="paragraph content-wrapper">
                 Личный кабинет инвестора сегодня - это огромный набор инструментов и блоков, от аналитики и отчетности до локации и времени работы банкоматов.
             </p>
-            <p class="paragraph paragraph-margin-top">
+            <p class="paragraph paragraph-margin-top content-wrapper">
                 Нам была поставлена задача разработки нескольких блоков для личного кабинета БКС:
             </p>
             <ul class="simple-list paragraph-margin-top">
