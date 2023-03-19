@@ -207,31 +207,31 @@ document.getElementById('web-loan').innerHTML = /*html*/ `
                                     <div>
                                         <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
                                     </div>
-                                    <p class="paragraph web-loan-implementation-results-after">Время подключения нового источника данных –2-3 недели</p>
+                                    <p class="paragraph">Время подключения нового источника данных –2-3 недели</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
                                         <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
                                     </div>
-                                    <p class="paragraph web-loan-implementation-results-after">Ошибка в одном модуле не влияет на результаты скоринга</p>
+                                    <p class="paragraph">Ошибка в одном модуле не влияет на результаты скоринга</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
                                         <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
                                     </div>
-                                    <p class="paragraph web-loan-implementation-results-after">Возможность предоставления отчетности по каждому скоринговому сервису отдельно</p>
+                                    <p class="paragraph">Возможность предоставления отчетности по каждому скоринговому сервису отдельно</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
                                         <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
                                     </div>
-                                    <p class="paragraph web-loan-implementation-results-after">Быстрый запуск нескольких скоринговых процессов одновременно и сравнение их фактических доходностей</p>
+                                    <p class="paragraph">Быстрый запуск нескольких скоринговых процессов одновременно и сравнение их фактических доходностей</p>
                                 </li>
                                 <li class="simple-list-item web-loan-decision-list-item">
                                     <div>
                                         <img src="http://192.168.1.112:8080/wp-content/uploads/2023/02/web-loan-implementation-results-check-mark.png" alt="check-mark" class="web-loan-implementation-results-icon" />
                                     </div>
-                                    <p class="paragraph web-loan-implementation-results-after">Интуитивно понятный веб-интерфейс, позволяющий решать задачи за считанные минуты</p>
+                                    <p class="paragraph">Интуитивно понятный веб-интерфейс, позволяющий решать задачи за считанные минуты</p>
                                 </li>
                             </ul>
                         </div>
